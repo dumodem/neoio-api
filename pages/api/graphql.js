@@ -44,12 +44,7 @@ export default async function handler(req, res) {
     schema: schema,
     playground: true,
     introspection: true,
-    plugins: [ApolloServerPluginLandingPageGraphQLPlayground],
-    csrfPrevention: true,  
-    cache: "bounded",
-    cors: {
-    origin: ["https://neoio-api.vercel.app", "https://studio.apollographql.com"]
-  },
+    plugins: [ApolloServerPluginLandingPageGraphQLPlayground]
   });
 
   const startServer = apolloServer.start();
