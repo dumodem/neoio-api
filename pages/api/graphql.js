@@ -50,7 +50,7 @@ export default async function handler(req, res) {
 
   // This will allow OPTIONS request
   if (method === "OPTIONS") {
-    res.status(200).send("ok");
+    return res.status(200).send("ok");
   }
 
   const startServer = apolloServer.start();
