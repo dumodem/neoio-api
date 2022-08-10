@@ -9,9 +9,17 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@apollo/client": "^3.6.9",
+    "@neo4j/graphql": "^3.6.2",
+    "apollo-server-micro": "^3.10.0",
+    "graphql": "^16.5.0",
+    "lodash": "^4.17.21",
+    "micro": "^9.4.1",
+    "neo4j-driver": "^4.4.7",
     "next": "12.2.4",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "react-force-graph-2d": "^1.23.10"
   },
   "devDependencies": {
     "eslint": "8.21.0",
